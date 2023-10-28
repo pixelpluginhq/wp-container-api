@@ -1,0 +1,45 @@
+{
+    "name": "pixelplugin/wp-container-api",
+    "description": "WordPress Container API",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["wordpress", "container", "psr", "psr-11", "container-interface", "dependency injection", "di"],
+    "authors": [
+        {
+            "name": "PixelPlugin",
+            "email": "support@pixelplugin.com",
+            "homepage": "https://pixelplugin.com"
+        }
+    ],
+    "homepage": "https://pixelplugin.com",
+    "support": {
+        "issues": "https://github.com/pixelpluginhq/wp-container-api/issues",
+        "source": "https://github.com/pixelpluginhq/wp-container-api"
+    },
+    "require": {
+        "php": ">=7.0",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "league/container": "^3.4",
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PixelPlugin\\WPContainerAPI\\": "src"
+        },
+        "files": ["src/functions.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PixelPlugin\\WPContainerAPI\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
