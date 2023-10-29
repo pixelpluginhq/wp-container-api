@@ -17,7 +17,7 @@
         "source": "https://github.com/pixelpluginhq/wp-container-api"
     },
     "require": {
-        "php": ">=7.0",
+        "php": "^7.0",
         "psr/container": "^1.0"
     },
     "require-dev": {
