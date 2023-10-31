@@ -9,6 +9,8 @@ for working with a global dependency container in WordPress.
 composer require pixelplugin/wp-container-api
 ```
 
+https://packagist.org/packages/pixelplugin/wp-container-api
+
 ## Usage
 
 `wp-container-api` exports the following two global functions.
