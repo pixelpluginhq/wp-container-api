@@ -8,6 +8,7 @@ use League\Container\Container;
 use PHPUnit\Framework\TestCase;
 use PixelPlugin\WPContainerAPI\MissingContainerException;
 use stdClass;
+
 use function wp_container_get;
 use function wp_container_has;
 

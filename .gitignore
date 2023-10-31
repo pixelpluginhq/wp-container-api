@@ -1,5 +1,6 @@
 composer.lock
 phpunit.xml
 phpstan.neon
+phpcs.xml
 vendor
 .idea
