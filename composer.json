@@ -17,13 +17,13 @@
         "source": "https://github.com/pixelpluginhq/wp-container-api"
     },
     "require": {
-        "php": "^7.0",
-        "psr/container": "^1.0"
+        "php": "^7.2",
+        "psr/container": "^1.0 || ^2.0"
     },
     "require-dev": {
-        "league/container": "^3.4",
+        "league/container": "^4.2",
         "phpstan/phpstan": "^1.10",
-        "phpunit/phpunit": "^6.5"
+        "phpunit/phpunit": "^8.5"
     },
     "autoload": {
         "psr-4": {
