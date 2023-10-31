@@ -4,13 +4,23 @@ All changes to `pixelplugin/wp-container-api` are documented here.
 
 ## Unreleased
 
+## 2.0.0 - 2023-10-31
+
+### Added
+
+- Use `phpcompatibility` package to additionally check the code.
+
+### Changed
+
+- Now the package requires PHP8.0.
+
 ## 1.0.1 - 2023-10-31
 
-## Added
+### Added
 
 - Use `phpcs` and `phpstan` to check the code.
 
-## Changed
+### Changed
 
 - Now the minimum requirement is PHP7.2.
 - Use `psr/container` versions for PHP ^7.2.
