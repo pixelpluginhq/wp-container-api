@@ -8,6 +8,7 @@ All changes to `pixelplugin/wp-container-api` are documented here.
 
 ### Added
 
+- Test with PHP 8.0, 8.1 and 8.2.
 - Use `phpcompatibility` package to additionally check the code.
 
 ### Changed
