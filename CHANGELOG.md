@@ -4,6 +4,12 @@ All changes to `pixelplugin/wp-container-api` are documented here.
 
 ## Unreleased
 
+## 2.0.1 - 2023-11-02
+
+### Changed
+
+- Update `README.md` with a better description.
+
 ## 2.0.0 - 2023-10-31
 
 ### Added

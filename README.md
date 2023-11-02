@@ -17,7 +17,7 @@ You need this package and some WordPress plugin that provides a global PSR-compa
 
 ## Functions
 
-### `wp_container_get`
+### wp_container_get
 
 `wp_container_get(string $id): mixed` is used to get a value from the global container instance.
 
@@ -25,7 +25,7 @@ You need this package and some WordPress plugin that provides a global PSR-compa
 $value = wp_container_get(ClassName::class);
 ```
 
-### `wp_container_has`
+### wp_container_has
 
 `wp_container_has(string $id): bool` checks if a value exists in the global container instance.
 
