@@ -1,6 +1,6 @@
 # WordPress Container API
 
-`pixelplugin/wp-container-api` is a package that provides global functions
+`pixelplugin/wp-container-api` is a composer package that provides global functions
 for working with a global dependency container in WordPress.
 
 ## Installation
@@ -13,19 +13,21 @@ https://packagist.org/packages/pixelplugin/wp-container-api
 
 ## Usage
 
-`wp-container-api` exports the following two global functions.
+You need this package and some WordPress plugin that provides a global PSR-compatible container instance in `$wp_container` variable. Then you can use the following 2 functions to work with the container from your code.
 
-### `wp_container_get(string $id): mixed`
+## Functions
 
-`wp_container_get()` is used to get a value from the global container instance.
+### `wp_container_get`
+
+`wp_container_get(string $id): mixed` is used to get a value from the global container instance.
 
 ```php
 $value = wp_container_get(ClassName::class);
 ```
 
-### `wp_container_has(string $id): bool`
+### `wp_container_has`
 
-`wp_container_has()` checks if a value exists in the global container instance.
+`wp_container_has(string $id): bool` checks if a value exists in the global container instance.
 
 ```php
 if (wp_container_has(ClassName::class)) {
