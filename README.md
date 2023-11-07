@@ -13,7 +13,7 @@ https://packagist.org/packages/pixelplugin/wp-container-api
 
 ## Usage
 
-You need this package and some WordPress plugin that provides a global PSR-compatible container instance in `$wp_container` variable, for example [pixelplugin/wp-container](https://github.com/pixelpluginhq/wp-container). Then you can use the following 2 functions to work with the container from your code.
+You need this package and some WordPress plugin that provides a global PSR-compatible container instance in `$wp_container` variable, for example [pixelplugin/wp-container](https://github.com/pixelpluginhq/wp-container). Then you can use the following functions to work with the container from your code.
 
 ## Functions
 
