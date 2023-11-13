@@ -3,6 +3,7 @@
 /**
  * WordPress Container API.
  * @link https://github.com/pixelpluginhq/wp-container-api
+ * @link https://packagist.org/packages/pixelplugin/wp-container-api
  */
 
 declare(strict_types=1);

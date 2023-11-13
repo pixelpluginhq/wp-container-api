@@ -19,9 +19,8 @@ final class FunctionsTest extends TestCase
 {
     /**
      * @covers ::wp_container_get()
-     * @return void
      */
-    public function testContainerGetWhenNoContainer()
+    public function testContainerGetWhenNoContainer(): void
     {
         $this->expectException(MissingContainerException::class);
 
@@ -30,9 +29,8 @@ final class FunctionsTest extends TestCase
 
     /**
      * @covers ::wp_container_get()
-     * @return void
      */
-    public function testContainerGet()
+    public function testContainerGet(): void
     {
         global $wp_container;
 
@@ -46,9 +44,8 @@ final class FunctionsTest extends TestCase
 
     /**
      * @covers ::wp_container_has()
-     * @return void
      */
-    public function testContainerHasWhenNoContainer()
+    public function testContainerHasWhenNoContainer(): void
     {
         $this->expectException(MissingContainerException::class);
 
@@ -57,9 +54,8 @@ final class FunctionsTest extends TestCase
 
     /**
      * @covers ::wp_container_has()
-     * @return void
      */
-    public function testContainerHas()
+    public function testContainerHas(): void
     {
         global $wp_container;
 
